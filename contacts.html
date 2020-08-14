@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/fonts.css" rel="stylesheet">
+<title>Росбизнесресурс</title>
+<!--[if lte IE 8]><script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script><![endif]-->
+ <meta charset="utf-8">
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript">
+        var images = ['images/slider-bg.jpg', 'images/slider-bg.jpg', 'images/slider-bg.jpg'];
+        var i = 0;
+ 
+        setInterval(function(){
+            $('#background').animate({opacity: 0}, 2000, function() {
+                if (i >= images.length) {
+                    i=0;
+                }
+                $(this).css('background','url(' + images[i++] +') no-repeat center center #fff').animate({opacity: 1});
+            });
+        }, 7000);
+        </script>
+</head>
+     
+     
+<body> 
+<div class="wrapper">
+ <div id="background"></div>
+<div id="top">
+<div class="container">
+<div class="row">
+<div class="col-xs-3 work"><i></i><span>Ми працюємо пн-сб</span><i class="right-line"></i></div>
+<div class="col-xs-7 phone-header"><div class="nazar-phone">Назар<a href="tel:+38 097 4787002">+38 (067) 9508526</a></div><div class="roman-phone">Роман<a href="tel:+38 097 4787002">+38 (097) 6107516</a></div>
+</div>
+
+<div class="col-xs-2 social pull-right">
+<a href="" class="twit"></a>
+<a href="" class="vk"></a>
+<a href="" class="fb">f</a>
+
+</div>
+</div>
+</div>
+        </div>
+<div id="navigation">
+<div class="container">
+<div class="row">
+<div class="col-xs-5"><a href="" class="logo"></a></div>
+<div class="col-xs-7">
+<div class="nav">
+<ul>
+<li> <a href="#">Home</a></li>
+        <li> <a href="#" class="current">Наші послуги</a></li>
+        <li> <a href="#"> Контактна інформація</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-xs-12 ">
+<div id="content-about">
+<div class="content-about-title">декілька слів про наш сервіс</div>
+<div class="content-about-over"><p>Наші кваліфіковані фахівці за допомогою найсучасніших рихтувальних інструментів повністю відновлять геометрію кузова і усунуть нерівності, зробивши поверхню авто ідеально гладкою. У нашому розпорядженні тільки найякісніші рихтувальні інструменти - важелі, притиски, молотки, фасонні плити, оправки та ручні ковадла. </p></div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-xs-12 ">
+<div id="content">
+<div class="content-title"><i class="left-arrow"></i>Ми пропонуємо<i class="right-arrow"></i></div>
+<div class="totel-content">
+<ul>
+<li><div class="content-img1"><i></i></div>
+<div class="content-text">
+<div class="content-text-title1"><h1>Ремонт трансмісії</h1></div>
+<p>Наші кваліфіковані фахівці за допомогою найсучасніших рихтувальних інструментів повністю віднов-</p>
+<a href="" class="">Детальніше<i></i></a>
+
+</div>
+</li>
+<li><div class="content-img2"><i></i></div>
+<div class="content-text">
+<div class="content-text-title12"><h1>Ремонт двигунів<h1></div>
+<div class="content-text-over"><p>Наші кваліфіковані фахівці за допомогою найсучасніших рихтувальних інструментів повністю віднов-</p></div>
+<a href="" class="">Детальніше<i></i></a>
+
+</div>
+</li>
+<li><div class="content-img3"><i></i></div>
+<div class="content-text">
+<div class="content-text-title1"><h1>Ремонт ходової</h1>ї</div>
+<div class="content-text-over"><p>Наші кваліфіковані фахівці за допомогою найсучасніших рихтувальних інструментів повністю віднов-</p></div>
+<a href="" class="">Детальніше<i></i></a>
+
+</div>
+</li>
+</ul>
+</div>
+<a href="" class="button">Всі послуги</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<footer id="footer">
+    <div class="container">
+      <div class="row">
+      <div class="col-xs-3 pull-left">
+      <div class="counter"><span class="inline">© Copyright  www.name.com</span></div>
+      </div>
+       <div class="col-xs-3 offset-6 pull-right">
+       <div class="contact-me">Розробка сайту-<a href="#">buyhtml.ru</a></div>
+       </div>
+      </div>
+      
+      </div>
+      
+      </footer>
+</div>
+<script src="js/jquery-1.8.0.min.js"></script> 
+<script src="js/jquery.countdown.js"></script>
+<script src="js/jquery.jcarousel.js"></script>
+<script src="js/components.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/scripts.js"></script>
+</body></html>
